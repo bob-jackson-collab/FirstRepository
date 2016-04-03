@@ -7,10 +7,12 @@ import android.text.TextUtils;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
     private WebView webView;
+    private Button summit;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
